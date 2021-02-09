@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+   <style>
+      table, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="t01">
+      <caption><strong>İletişim Bilgilerim</strong></caption>
+      <tr>
+        <th>Telefon</th>
+        <th>E-posta</th>
+        <th>Ev Adresi</th>
+      </tr>
+      <tr>
+        <td>0552 242 04 03</td>
+        <td>gokhancinbas@windowslive.com</td>
+        <td>Etimesgut/ANKARA</td>
+      </tr>
+      <tr>
+        <td>0552 242 04 03</td>
+        <td>gokhan.cinbas2334@gmail.com</td>
+        <td>Etimesgut/ANKARA</td>
+      </tr>
+    </table>
+    <form enctype="text/plain" action="mailto:gokhancinbas@windowslive.com?subject=feedback" method="post">
+      <label>Name</label><br>
+      <input type="text" name="Name" value=""><br>
+      <label>Birthday</label><br>
+      <input type="date" name="Birthday" value=""><br>
+      <label>E-mail</label><br>
+      <input type="text" name="Email" value=""><br>
+      <label>Your Message</label><br>
+      <textarea id="story" name="Feedback"
+          rows="10" cols="50"></textarea><br>
+      <input type="submit" value="Send your message"><br>
+    </form>
+  </body>
+</html>
