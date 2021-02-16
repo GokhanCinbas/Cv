@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-image: url("../images/wp2.jpg");
+  font-family: sans-serif;
+  text-align: center;
+}
+hr {
+  width: 96rem;
+  height: 0.09rem;
+  color: #58391c;
+  letter-spacing: 300px;
+}
+/* All header ingrediets*/
+.header {
+  margin: 0;
+  height: 4rem;
+}
+/* All top-contaier ingrediets*/
+.top-container {
+  text-align: center;
+  vertical-align: middle;
+  height: 12rem;
+  background: rgba(247, 247, 232,0.2);
+}
+.img1 {
+  display: inline-block;
+  position: fixed;
+  left:0;
+  margin: 2rem 0;
+  height: 3rem;
+  width: 3rem;
+}
+.img2 {
+  display: inline-block;
+  position: fixed;
+  right:0;
+  margin: 2rem 0;
+  height: 3rem;
+  width: 3rem;
+}
+.welcome-board {
+  color: #314e52;
+  display: inline-block;
+  font-family: 'Aladin', cursive;
+  font-size: 4rem;
+  margin: 0;
+}
+.h2 {
+  color: #314e52;
+  display: inline-block;
+  font-family: 'Aladin', cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+/* End of All top-contaier ingrediets*/
+.profile-pic {
+  height: 20rem;
+  width: 20rem;
+  margin: 2rem;
+}
+.header-text {
+  margin: 0;
+  margin-bottom: 2rem;
+  color: #314e52;
+  font-family: 'Aladin', cursive;
+  font-size: 2rem;
+}
+/* All second-contaier ingrediets*/
+.second-container {
+  text-align: center;
+  vertical-align: middle;
+  height: 36rem;
+  background: rgba(247, 247, 232,0.2);
+}
+.olive-garden-3-img {
+  margin-bottom: 2rem;
+  margin-left: 20%;
+  margin-right: 5rem;
+  height: 28rem;
+  width:28rem;
+  float: left;
+}
+p {
+  text-indent: 4rem;
+  text-align: left;
+  width: 100rem;
+  font-family: 'Aladin', cursive;
+  font-size: 1.7rem;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+#unvisible {
+  visibility: hidden;
+}
+/* End of All second-contaier ingrediets */
+.p1 {
+  text-indent: 4rem;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 20%;
+  margin-right: 25%;
+  width: 80rem;
+  font-family: 'Aladin', cursive;
+  font-size: 1.7rem;
+}
+a {
+  margin: 0;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #314e52;
+  font-family: 'Aladin', cursive;
+  font-size: 2rem;
+}
+a:hover {
+  color: #557174;
+}
+/* All third-contaier ingrediets*/
+.olive-garden-img {
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 10%;
+  height: 28rem;
+  width:28rem;
+  float:right;
+}
+.p2 {
+  text-indent: 4rem;
+  text-align: left;
+  width: 50rem;
+  margin-left: 18rem;
+  font-family: 'Aladin', cursive;
+  font-size: 1.7rem;
+}
+.p3 {
+  visibility: hidden;
+  text-indent: 4rem;
+  text-align: left;
+  width: 40rem;
+  margin-left: 18rem;
+  font-family: 'Aladin', cursive;
+  font-size: 1.7rem;
+}
+/* End of All third-contaier ingrediets*/
+/* All fourth-contaier ingrediets*/
+
+/* End of All fourth-contaier ingrediets*//*
+/* All footer ingrediets*/
+.footer {
+  text-align: center;
+  vertical-align: top;
+  height: 12rem;
+  background: rgba(85, 113, 116,0.4);
+}
+.footer-a {
+  margin: 2rem 8rem;
+  color: #493323;
+  display: inline-block;
+  font-family: 'Aladin', cursive;
+  font-size: 2rem;
+}
+.footer-h3 {
+  font-family: 'Aladin', cursive;
+  color: #493323;
+}
+/* End of All fourth-contaier ingrediets*//*
